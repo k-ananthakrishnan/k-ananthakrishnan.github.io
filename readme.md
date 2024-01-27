@@ -1,64 +1,68 @@
-# Ananthakrishnan.dev
-
-Personal portfolio made with [Jekyll](https://jekyllrb.com/), deployed via [Github pages](https://pages.github.com/)
-
-## Setup
-
-This site runs on Jekyll, an opensource static site generating platform.
-
-- Clone or download a zip of this project to your computer and navigate to the
-  project directory in your terminal
-  
-- Make sure Ruby is installed, to check if it is, run:
-  ```
-  ruby -v
-  ``` 
-  For more information about installing Ruby, refer to the [Ruby installation ](https://www.ruby-lang.org/en/documentation/installation/).
-
-- Install the Jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems) from the commandline:
-  ```
-  gem install jekyll bundler
-  ```
-  For more information about installing Jekyll, refer to the [Jekyll quickstart guide](https://jekyllrb.com/docs/quickstart/)
+# FANSHAWE 23F WEB DEISGN
+---
+First Repository for 2023 Fall MAP1 Web Design Course
+updated
 
 
-- Install Gem dependencies for the project by running:
-  ```
-  bundle install
-  ```
-  
-- To run the server in your local environment run:
-  ```
-  bundle exec jekyll serve
-  ```
-  
-- Go to http://localhost:4000/ in your browser
+### Ananthakrishnan Krishnakumar
+ This is a simple portfolio website for the 23Fall WebvDesign final project. This project has only one team member: Ananthakrishnan krishnakumar
+
+ ### Design Principles:
+- This website is built with a dark background making it easier on the eyes.
+- text colour is mostly white for the entire site with some Green accent colour added for visual flair.
+- All elements are have margin which provide ample amount of space between elements.
+- All texts are appropreately sized according to device resolutiona and headings are big and easier to read.
+- Only three fonts are used throughtout the site : Arial, Times New Roman and Gill Sans
+- All links have a green dashed underline on hover making them easier to identify and important links have green accent colour.
+- All links have a area description for improved accessibility.
+- Main page has a performance rating of 100 in chrome lighthouse test.
+- All base styling is done for mobile screen.
+- the website is optimised for mobile, tablet and desktop screen sizes.
 
 
-## General information
+### Accessibility report
 
-- Static website
-- Optimised for efficient [PageSpeed Insights benchmarks](still more to do in this space)
-- No Jekyll plugin dependancies (previously used Bourbon and Neat, now uses CSS Grid and CSS Custom properties)
+Main page has a accessibility score of 94 in chrome lighthouse test.
+
+- [aria-*] attributes match their roles
+- [aria-hidden="true"] is not present on the document body
+- [aria-*] attributes have valid values
+- [aria-*] attributes are valid and not misspelled
+- [user-scalable="no"] is not used in the 'meta name="viewport"' element and the [maximum-scale] attribute is not less than 5.
+- Background and foreground colors have a sufficient contrast ratio
+- Document has a 'title' element
+- 'html' element has a [lang] attribute
+- 'html' element has a valid value for its [lang] attribute
+- Links have a discernible name
+- List items (li) are contained within 'ul', 'ol' or 'menu' parent elements
+- Heading elements appear in a sequentially-descending order
+
+### SEO report
+
+Main page has a seo score of 100 in chrome lighthouse test.
+
+- Has a 'meta name="viewport"' tag with width or initial-scale
+- Document has a 'title' element
+- Document has a meta description
+- Page has successful HTTP status code
+- Links have descriptive text
+- Links are crawlable
+- Page isn’t blocked from indexing
+- Document has a valid hreflang
+- Document uses legible font sizes 100% legible text
+- Document avoids plugins
+- Tap targets are sized appropriately 100% appropriately sized tap targets
+
+### Lighthouse report
+
+- index.html
+![alt text](./images/Screenshot%202023-12-03%20at%204.43.42 PM.png?raw=true)
 
 
-## Licenses
+- about.html
+![alt text](./images/Screenshot%202023-12-03%20at%204.43.13 PM.png?raw=true)
+
+- contact.html
+![alt text](./images/Screenshot%202023-12-03%20at%204.42.47 PM.png?raw=true)
 
 
-### Underlying source code
-
-This code is adapted from [Matthew Grey] (https://github.com/MattGreyDesign/himatt.com) 
-
-Under the [GNU General Public License v3.0](LICENSE), you can adapt and use the source code of this site (but not it's content) for personal and commercial use, so long as you retain the same license for your own project. See a quick breakdown of what you can and cant do [here](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3))
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
-
-
-<!-- ### Content
-
-© Matthew Grey and himatt.com. Unauthorised use and/or duplication and
-adaptation of this material (all image formats, text and additional media files)
-without express and written permission from this site’s author and/or owner is
-strictly prohibited. Excerpts and links may be used, provided that full and
-clear credit is given to Matthew Grey and/or himatt.com with appropriate and
-specific direction to the original content. -->
