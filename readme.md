@@ -1,11 +1,7 @@
-# FANSHAWE 23F WEB DEISGN
----
-First Repository for 2023 Fall MAP1 Web Design Course
-updated
-
 
 ### Ananthakrishnan Krishnakumar
- This is a simple portfolio website for the 23Fall WebvDesign final project. This project has only one team member: Ananthakrishnan krishnakumar
+ This is my first public portfolio website
+ 
 
  ### Design Principles:
 - This website is built with a dark background making it easier on the eyes.
